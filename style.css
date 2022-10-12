@@ -17,7 +17,9 @@ body {
 .header {
     margin: 0;
     margin-bottom: 3%;
+    cursor: default;
     font-weight: 500;
+    letter-spacing: 10px;
     font-size: 102px;
 }
 
@@ -29,6 +31,10 @@ body {
 }
 
 #time {
+    /*padding: 10px;
+    border-radius: 10px;
+    border: 6px solid whitesmoke;*/
+    cursor: default;
     margin-bottom: 8%;
     font-size: 112px;
     font-weight: 500;
@@ -45,6 +51,7 @@ body {
 button {
     width: 200px;
     height: 50px;
+    cursor: pointer;
     font-size: 16px;
     color: whitesmoke;
     border: 2px solid whitesmoke;

@@ -25,6 +25,7 @@ function startTimer() {
     if (hundreds > 99) {
         seconds++
         appendSeconds.innerHTML = "0" + seconds;
+        
         hundreds = 0;
         appendHundreds.innerHTML = "0" + 0;;
     }
@@ -34,6 +35,7 @@ function startTimer() {
     if (seconds >= 60) {
         minutes++;
         appendMinutes.innerHTML = "0" + minutes;
+
         seconds = 0;
         appendSeconds.innerHTML = "0" + 0;;
     }
@@ -43,6 +45,7 @@ function startTimer() {
     if (minutes >= 60) {
         hours++;
         appendHours.innerHTML = "0" + hours;
+
         minutes = 0;
         appendMinutes.innerHTML = "0" + 0;
     }
